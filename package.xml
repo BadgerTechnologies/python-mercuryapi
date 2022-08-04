@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mercury_api</name>
+  <version>0.0.0</version>
+  <description>Package for python-mercuryapi</description>
+  <maintainer email="charles_cochran@jabil.com">Charles Cochran</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>gcc-static</build_depend>
+  <build_depend>libreadline-dev</build_depend>
+  <build_depend>unzip</build_depend>
+  <build_depend>xsltproc</build_depend>
+
+  <depend>python3-dev</depend>
+  <depend>python3-setuptools</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
